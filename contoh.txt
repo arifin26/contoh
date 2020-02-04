@@ -1,0 +1,13 @@
+1.Carilah 5 `object` pada dunia nyata , lalu buatlah `object` tersebut ke dalam kode , dimana object tersebut memiliki  `properties` dan `methods` . Simpan dengan nama `latihan-6.js`
+2. Lihatlah object berikut ini
+```javascript
+
+var jualMobil = {
+    iklan:function(){
+        document.write(`BU , saya ${this.nama}, jual mobil ${this.merek} , tahun ${this.tahun} ,bekas)
+    }
+}
+```
+Dengan tidak mengubah struktur object buatlah program dengan keluaran pada halaman web seperti di bawah ini. Simpan dengan nama `latihan-7.js`
+```
+BU , saya Tompel , jual mobil Avanza , tahun 2017 , bekas
